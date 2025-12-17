@@ -2,6 +2,7 @@ import { InjectionToken, Provider } from "@angular/core";
 
 export type TaskStatus = 'OPEN' | 'IN_PROGRESS' | 'DONE';
 
+
 type TaskOptionsTypes = {
   value:'open' | 'in-progress' | 'done',
   taskStatus:TaskStatus,
